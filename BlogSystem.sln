@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BE652B5-0F51-48A1-AD15-D510387B2F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem.Web", "src\BlogSystem.Web\BlogSystem.Web.csproj", "{D6CE3489-EAEC-40EE-A96D-416B59E858F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem.Domain", "src\BlogSystem.Domain\BlogSystem.Domain.csproj", "{8E9FFF42-D926-44A1-9D56-1F0C19CB0516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem.EntityFrameworkCore", "src\BlogSystem.EntityFrameworkCore\BlogSystem.EntityFrameworkCore.csproj", "{68256EC1-2A1C-41F8-B6B8-4D9F9C916FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem.Ability", "src\BlogSystem.Ability\BlogSystem.Ability.csproj", "{6116C322-89DB-46F5-8A79-67375EA646B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem.Ability.Docking", "src\BlogSystem.Ability.Docking\BlogSystem.Ability.Docking.csproj", "{28D345AD-95C1-4BB0-9813-28B6BB1FBAF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogSystem.Http.Client", "src\BlogSystem.Http.Client\BlogSystem.Http.Client.csproj", "{63E832F6-70C9-4659-AFD8-A956DDE98D2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6CE3489-EAEC-40EE-A96D-416B59E858F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CE3489-EAEC-40EE-A96D-416B59E858F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CE3489-EAEC-40EE-A96D-416B59E858F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CE3489-EAEC-40EE-A96D-416B59E858F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9FFF42-D926-44A1-9D56-1F0C19CB0516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9FFF42-D926-44A1-9D56-1F0C19CB0516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9FFF42-D926-44A1-9D56-1F0C19CB0516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9FFF42-D926-44A1-9D56-1F0C19CB0516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68256EC1-2A1C-41F8-B6B8-4D9F9C916FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68256EC1-2A1C-41F8-B6B8-4D9F9C916FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68256EC1-2A1C-41F8-B6B8-4D9F9C916FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68256EC1-2A1C-41F8-B6B8-4D9F9C916FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6116C322-89DB-46F5-8A79-67375EA646B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6116C322-89DB-46F5-8A79-67375EA646B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6116C322-89DB-46F5-8A79-67375EA646B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6116C322-89DB-46F5-8A79-67375EA646B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D345AD-95C1-4BB0-9813-28B6BB1FBAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D345AD-95C1-4BB0-9813-28B6BB1FBAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D345AD-95C1-4BB0-9813-28B6BB1FBAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D345AD-95C1-4BB0-9813-28B6BB1FBAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E832F6-70C9-4659-AFD8-A956DDE98D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E832F6-70C9-4659-AFD8-A956DDE98D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E832F6-70C9-4659-AFD8-A956DDE98D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E832F6-70C9-4659-AFD8-A956DDE98D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6CE3489-EAEC-40EE-A96D-416B59E858F7} = {4BE652B5-0F51-48A1-AD15-D510387B2F79}
+		{8E9FFF42-D926-44A1-9D56-1F0C19CB0516} = {4BE652B5-0F51-48A1-AD15-D510387B2F79}
+		{68256EC1-2A1C-41F8-B6B8-4D9F9C916FBF} = {4BE652B5-0F51-48A1-AD15-D510387B2F79}
+		{6116C322-89DB-46F5-8A79-67375EA646B3} = {4BE652B5-0F51-48A1-AD15-D510387B2F79}
+		{28D345AD-95C1-4BB0-9813-28B6BB1FBAF4} = {4BE652B5-0F51-48A1-AD15-D510387B2F79}
+		{63E832F6-70C9-4659-AFD8-A956DDE98D2C} = {4BE652B5-0F51-48A1-AD15-D510387B2F79}
+	EndGlobalSection
+EndGlobal
