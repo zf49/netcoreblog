@@ -1,4 +1,6 @@
 using AutoMapper;
+using BlogSystem.Ability.Docking.Dto;
+using BlogSystem.Domain.AccountInfo;
 
 namespace BlogSystemSystem.Ability
 {
@@ -6,6 +8,7 @@ namespace BlogSystemSystem.Ability
     {
         public BlogSystemProfile()
         {
+            CreateMap<User, LoginSuccessDto>();
         }
     }
 }
