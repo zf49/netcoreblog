@@ -35,7 +35,6 @@ namespace BlogSystem.Ability.UserApp
 
         return true;}catch(Exception exp){
             return false;   
-
         }
 
         }

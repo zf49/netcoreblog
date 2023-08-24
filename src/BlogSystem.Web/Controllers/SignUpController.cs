@@ -18,12 +18,15 @@ namespace BlogSystem.Web.Controllers
 
             [HttpPost]
             public async Task<bool> SignUp(UserSignupDto userSignupDto){
+                System.Console.WriteLine("11111111111111");
+
+                System.Console.WriteLine(userSignupDto.Birthday);
+                System.Console.WriteLine("11111111111111");
+
 
                 var boo = await UserServicer.RegisterUser(userSignupDto);
 
                 return boo;
-
-
 
         }
 
