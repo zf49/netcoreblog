@@ -19,11 +19,10 @@ namespace BlogSystem.Web.Controllers
 
         [HttpGet]
         public async Task<LoginSuccessDto> CheckLogin(string username, string password){
-
+            System.Console.WriteLine(username);
             return await UserServicer.CheckLogin(username, password);
 
         }
-
 
 
     }

@@ -10,5 +10,8 @@ namespace BlogSystem.Ability.Docking.UserApp
     public interface IUserServicer :IAbilityServicer
     {
         Task<LoginSuccessDto> CheckLogin(string userName,string password);
+
+        Task<bool> RegisterUser(UserSignupDto userSignupDto);
+
     }
 }

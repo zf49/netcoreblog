@@ -9,6 +9,10 @@ namespace BlogSystemSystem.Ability
         public BlogSystemProfile()
         {
             CreateMap<User, LoginSuccessDto>();
+
+            CreateMap<UserSignupDto,User>();
+
+
         }
     }
 }

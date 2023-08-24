@@ -3,6 +3,7 @@ using System;
 using BlogSystem.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlogSystem.EntityFrameworkCore.Migrations
 {
     [DbContext(typeof(BlogSystemDbContext))]
-    partial class BlogSystemDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230824063054_init2")]
+    partial class init2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,6 +39,12 @@ namespace BlogSystem.EntityFrameworkCore.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("PwdAnswer")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("PwdQuestion")
                         .HasColumnType("longtext");
 
                     b.Property<string>("UserName")

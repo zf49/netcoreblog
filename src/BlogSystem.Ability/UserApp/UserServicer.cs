@@ -25,6 +25,22 @@ namespace BlogSystem.Ability.UserApp
         }
 
 
+        public async Task<bool> RegisterUser(UserSignupDto userSignupDto){
+
+        try{  var user =   ModelMapper.Map<UserSignupDto,User>(userSignupDto);
+
+        user.ValidateRegistion();
+
+        await UserRepo.InsertAsync(user);
+
+        return true;}catch(Exception exp){
+            return false;   
+
+        }
+
+        }
+
+
 
 
     }
